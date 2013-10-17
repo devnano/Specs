@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.author         = 'Tencent'
   s.source         = { :http => "http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/Connect_IOS_SDK_V1.4.0.zip" }
   s.platform       = :ios
-  s.preserve_paths = 'Connect_IOS_SDK_V1.4.0/TencentOpenAPI.framework'  
+  s.preserve_paths = 'Connect_IOS_SDK_V1.4.0'  
   s.resources      = 'Connect_IOS_SDK_V1.4.0/TencentOpenApi_IOS_Bundle.bundle';
   s.ios.vendored_frameworks  = 'Connect_IOS_SDK_V1.4.0/TencentOpenAPI.framework';
   s.license        = { :type => 'Tencent', :text => 'Copyright (c) 2012 Tencent'}
