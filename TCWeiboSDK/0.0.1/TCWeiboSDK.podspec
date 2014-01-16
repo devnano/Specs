@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.preserve_paths  = 'TCWeiboSDK-LightVersion/TCWeiboSDK/lib/libTCWeiboSDK.a'
   s.library = 'TCWeiboSDK'
   s.license        = { :type => 'Tencent', :text => 'Copyright (c) 2013 Tencent'}
-  s.xcconfig  =  { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/Headers/TCWeiboSDK"' }
+  s.xcconfig  =  { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/TCWeiboSDK"' }
 end
