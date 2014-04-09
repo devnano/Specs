@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary        = "The Tencent Open API for iOS."
   s.homepage       = "http://wiki.opensns.qq.com/wiki"
   s.author         = 'Tencent'
-  s.source         = { :http => "http://sznk.fcloud.store.qq.com/store_raw_download?buid=16821&uuid=8a0b8bcb425a106301425a3da72f0001&fsname=Connect_IOS_SDK_V2.0.1.zip" }
+  s.source         = { :http => "http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/Connect_IOS_SDK_V2.0.1.zip" }
   s.platform       = :ios
   s.frameworks     =  'CoreTelephony'
   s.public_header_files = 'Connect_IOS_SDK_V2.0.1/TencentOpenAPI.framework/Headers/*.h';
